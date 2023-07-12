@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alert dialog text</string>
+    <string name="Random_Text">Random Text</string>
+    <string name="Random">RANDOM</string>
+</resources>
