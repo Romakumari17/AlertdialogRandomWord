@@ -18,9 +18,19 @@
         app:layout_constraintGuide_percent=".4"
         android:id="@+id/guide_.4h"
         android:orientation="horizontal"/>
-
     <TextView
         android:id="@+id/tvRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Random_Text"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@id/guide_.4h"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/etRandom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/Random_Text"
